@@ -48,7 +48,7 @@ Precision, flops and infer time are all evaluated on **VGA resolution**.
 
 ## Installation
 
-Please refer to [mmdetection](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md) for installation.
+Please refer to [mmdetection](https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md#installation) for installation.
  
   1. Install [mmcv](https://github.com/open-mmlab/mmcv). (mmcv-full==1.2.6 and 1.3.3 was tested)
   2. Install build requirements and then install mmdet.
@@ -167,4 +167,9 @@ We provide an example for searching SCRFD-2.5GF in this repo as below.
 
 ## Demo
 
-1. [https://github.com/nihui/ncnn-android-scrfd](https://github.com/nihui/ncnn-android-scrfd)
+1. [ncnn-android-scrfd](https://github.com/nihui/ncnn-android-scrfd)
+2. [scrfd-MNN C++](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_scrfd.cpp)
+3. [scrfd-TNN C++](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_scrfd.cpp)
+4. [scrfd-NCNN C++](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ncnn/cv/ncnn_scrfd.cpp)
+5. [scrfd-ONNXRuntime C++](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/scrfd.cpp)
+6. [TensorRT Python](https://github.com/SthPhoenix/InsightFace-REST/blob/master/src/api_trt/modules/model_zoo/detectors/scrfd.py)
